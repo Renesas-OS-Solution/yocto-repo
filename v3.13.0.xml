@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="git://git.yoctoproject.org/" name="github_poky"/>
+  <remote fetch="https://git.yoctoproject.org/" name="github_poky"/>
   <remote fetch="https://git.linaro.org/" name="github_linaro"/>
   <remote fetch="http://git.openembedded.org/" name="github_oe"/>
   <remote fetch="http://dhypc397.mu.renesas.com/cgit/" name="git397_renesas"/>
