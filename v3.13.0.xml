@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote fetch="git://git.yoctoproject.org/" name="github_poky"/>
+  <remote fetch="https://git.linaro.org/" name="github_linaro"/>
+  <remote fetch="http://git.openembedded.org/" name="github_oe"/>
+  <remote fetch="http://dhypc397.mu.renesas.com/cgit/" name="git397_renesas"/>
+
+  <default remote="git397_renesas"/>
+  
+  <project name="git/poky" path="poky" remote="github_poky" revision="7e7ee662f5dea4d090293045f7498093322802cc"/>
+  <project name="openembedded/meta-linaro.git" path="meta-linaro.git" remote="github_linaro" revision="75dfb67bbb14a70cd47afda9726e2e1c76731885"/>
+  <project name="meta-openembedded" path="meta-openembedded" remote="github_oe" revision="352531015014d1957d6444d114f4451e241c4d23"/>
+  <project name="gen3/meta-renesas.git/" path="meta-renesas.git" revision="316680b2a42c5ee9000e0a42890cc7d0f7b7b441"/>
+</manifest>
+
